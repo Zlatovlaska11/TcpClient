@@ -5,6 +5,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
+
 void loadUserMessage(char **buffer, int *size) {
   int bufferSize = 10;
   int curSize = 0;
